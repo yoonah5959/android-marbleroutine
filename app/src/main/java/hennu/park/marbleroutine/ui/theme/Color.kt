@@ -2,7 +2,14 @@ package hennu.park.marbleroutine.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
+val orange500 = Color(0xFFFF9800)
+val lime300 = Color(0xFFdce775)
+val yellow300 = Color(0xFFfff176)
+val black85 = Color(0xFF262626)
+val black60 = Color(0xFF666666)
+val black40 = Color(0xFF999999)
+val black30 = Color(0xFFB2B2B2)
+val black20 = Color(0xFFCCCCCC)
+val black10 = Color(0xFFE5E5E5)
+val white = Color(0xFFFFFFFF)
+

@@ -9,9 +9,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import hennu.park.marbleroutine.R
+import hennu.park.marbleroutine.ui.theme.black85
 
 @Composable
 fun HomeScreen() {
@@ -21,10 +23,10 @@ fun HomeScreen() {
             .background(MaterialTheme.colors.primary)
     ) {
         Text(
-            text = "test",
+            text = "HOME",
             style = MaterialTheme.typography.h1,
-            textAlign = TextAlign.Center,
-            color = Color.White,
+            textAlign = TextAlign.Left,
+            color = MaterialTheme.colors.secondary,
             modifier = Modifier.align(Alignment.Center)
         )
     }
